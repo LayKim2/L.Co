@@ -1,3 +1,5 @@
+using COMMON.Models;
+
 namespace COMMON.Data
 {
     public class WeatherForecastService

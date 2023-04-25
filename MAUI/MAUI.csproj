@@ -52,5 +52,10 @@
     <ItemGroup>
       <ProjectReference Include="..\COMMON\COMMON.csproj" />
     </ItemGroup>
+  
+    <!-- MudBlazor -->
+    <ItemGroup>
+      <Using Include="MudBlazor.Services" />
+    </ItemGroup>
 
 </Project>
