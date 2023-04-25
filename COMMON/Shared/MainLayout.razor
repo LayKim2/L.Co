@@ -1,8 +1,12 @@
 ﻿@inherits LayoutComponentBase
+@using Radzen
+@using Radzen.Blazor
 
-<PageTitle>WEB</PageTitle>
+<article class="content px-4">
+    @Body
+</article>
 
-<div class="page">
+@*<div class="page">
     <div class="sidebar">
         <NavMenu />
     </div>
@@ -16,4 +20,13 @@
             @Body
         </article>
     </main>
-</div>
+</div>*@
+
+<MudThemeProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<RadzenDialog />
+<RadzenNotification />
+<RadzenContextMenu />
+<RadzenTooltip />
